@@ -4,11 +4,12 @@ import { ApiService } from './api.service';
 import { SlicePipe } from '@angular/common';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
+import { ProductComponent } from './product/product.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,SlicePipe,NavbarComponent,FooterComponent],
+  imports: [RouterOutlet,SlicePipe,NavbarComponent,FooterComponent,ProductComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

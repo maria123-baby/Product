@@ -1,0 +1,51 @@
+.con-1{
+    width:400px;
+    padding:0px;
+    float: right;
+    margin-left: 30px;;
+}
+.left{
+  float: left;
+  margin: 30px;
+}
+.container{
+    padding:30px;
+    margin: 40px;
+
+}
+.rating-container {
+    display: flex;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+}
+
+.rating i {
+    margin-right: 5px; /* Adjust as needed */
+}
+h1{
+    color: black;
+}
+img{
+    width:450px;
+    display: flex;
+    height:450px;
+    align-items: left;
+    justify-content: left;
+}
+button{
+    width:100px;
+    height:50px;
+    border-radius: 17px;
+    background-color: blue;
+    font-size:30px;
+    outline: none;
+    color:white;
+    margin-top: 10px;
+    border: none;
+}
+.rating{
+    color:orange;
+}

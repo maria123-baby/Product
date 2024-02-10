@@ -1,0 +1,16 @@
+.product{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+}
+.banner{
+    text-align: center;
+    width:100%;
+
+}
+img{
+    padding:50px 30px 40px 30px;
+    height:800px;
+    width:500px;
+}

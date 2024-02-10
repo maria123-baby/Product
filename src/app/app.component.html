@@ -1,19 +1,2 @@
-<div class="container">
-  <h1>STORE</h1>
-  <app-navbar></app-navbar>
-  <div class="row">
-    @for (item of data;track $index){
-    <div class="col">
-      <div class="card" style="width: 19rem; height:35rem;">
-        <img src="{{item.image}}" >
-        <div class="card-body">
-          <h5 class="card-title">{{item.title}}</h5>
-          <p class="card-text">{{item.description | slice:0:150}}...</p>
-          <a href="#" class="btn btn-primary">{{item.price}}</a>
-        </div>
-      </div>
-    </div>
-  }
-  </div>
-  <app-footer></app-footer>
-</div>
+
+<router-outlet></router-outlet>
